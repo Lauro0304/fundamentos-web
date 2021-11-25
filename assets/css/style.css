@@ -1,20 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@300&family=Noto+Serif:ital@1&display=swap');
+
+/*
+imagem de fundo do site
+*/
+body{
+    background-image: url(../backgroundImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
 /*
 Estilo da pagina de index.html
 
 */
+.fonteprincipal{
+    font-family: Martel;
+}
 .center{
-    text-align: center;
+    text-align: left;
 }
 .justify{
     text-align: justify;
 }
 .p2{
-    font-size: 16px;
+    font-size: 15px;
 }
 .container{
-display: flex;
+    display: flex;
 flex-flow: row ;
 justify-content: center;
+align-items: center;
+
+}
+
+.container1{
+display: flex;
+flex-flow: row ;
+justify-content: left;
 align-items: center;
 }
 #menu li{
@@ -23,7 +46,7 @@ align-items: center;
 }
    
 #menu li a{
-    text-decoration: none;
+    text-decoration: none ;
     color: black;
     font-size: 23px;
 }
@@ -32,10 +55,10 @@ align-items: center;
 }
 
 .p-30{
-    padding: 30px;
+    padding: 50px;
 }
 .br-50{
-    border-radius: 50%;
+    border-radius: 25%;
 }
 .wh-300{
     width: 300px;
