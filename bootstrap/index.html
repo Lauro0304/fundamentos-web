@@ -14,6 +14,13 @@
             height: 50px;
         }
 
+        .fundonavbar {
+            background-image: url(https://wallpaperaccess.com/full/25637.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
         .fundodesite {
             background-image: url(https://data.1freewallpapers.com/download/triangle-solid-black-gold-4k-abstract-2048x1536.jpg);
             background-repeat: no-repeat;
@@ -21,23 +28,18 @@
             background-position: center center;
         }
 
+
         html {
             scroll-behavior: smooth;
         }
     </style>
+
 </head>
 
-<body class="fundodesite ">
-
-
-
-
-
-
-
+<body class="fundonavbar fundodesite">
     <!--menu-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-        <a class="navbar-brand" href="index.html"><img width="35" height="35" src="./assets/ciencia.png"
+    <nav class="navbar navbar-expand-lg navbar-dark fundonavbar">
+        <a class="navbar-brand" href="index.html"><img width="35" height="35" src="./assets/botao-de-inicio.png"
                 alt="imagem de atomo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -228,16 +230,16 @@
 
 
                 <div class="text-light col-md-6">
-                    <form>
+                    <form id="validacao">
                         <div class="form-group">
                             <label for="exampleFormControlInput1">Edereço de email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                            <input type="email" class="form-control" id="email"
                                 placeholder="name@example.com">
                         </div>
 
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1"></label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <label for="exampleFormControlTextarea1">Assunto</label>
+                            <textarea class="form-control" id="assunto" rows="3"></textarea>
                         </div>
                         <div class="form-group d-flex justify-content-end">
                             <button class="btn-outline-success ">Enviar</button>
@@ -265,7 +267,7 @@
     </div>
     <li>
         <audio id="musica" src=" ./assets/best-music-mix-no-copyright-gaming-music-music-by-roy-knox-and-friends.mp3"
-             controls loop>
+            controls loop>
         </audio>
     </li>
     <!--rodapé-->
@@ -320,6 +322,7 @@
                         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
                         crossorigin="anonymous"></script>
                     <!-- /scrip necessario para usar os codigos JS do bootstrap-->
+                    <script src="js/formulario.js"></script>
 </body>
 
 </html>
