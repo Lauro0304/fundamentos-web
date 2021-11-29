@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementando BootStrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <style>
+        .tm-social {
+            width: 50px;
+            height: 50px;
+        }
+
+        .fundodesite {
+            background-image: url(https://besthqwallpapers.com/Uploads/15-4-2019/87425/thumb2-microcircuit-4k-chip-digital-equipment-board.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+    </style>
+</head>
+
+<body class="fundodesite">
+
+
+
+
+
+
+
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="index.html"><img width="35" height="35" src="./assets/ciencia.png"
+                alt="imagem de atomo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://github.com/Lauro0304" target="_blank">GitHub <img
+                            src="./assets/github.png" width="20" height="20" alt=""> <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                        Redes Sociais
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://www.facebook.com/lauro.matheus.3/"
+                            target="_blank">Facebook <img src="./assets/facebook.png" height="15" width="15"
+                                alt="imagem facebook"></a>
+                        <a class="dropdown-item" href="https://www.instagram.com/lauro_alves.98/"
+                            target="_blank">Instagram <img src="./assets/instagram.png" width="15" height="15"
+                                alt="imagem instagram"></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/lauro-matheus-0a109758/ "
+                            target="_blank">LinkedIn <img src="./assets/linkedin.png" height="15" width="15"
+                                alt="imagem linkedin"></a>
+
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#musica">Musica</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <!--/menu-->
+
+    <!--carrosel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images5.alphacoders.com/958/thumb-1920-958580.jpg" class="d-block w-100" alt="dragao">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/originals/bf/82/f6/bf82f6956a32819af48c2572243e8286.jpg"
+                    class="d-block w-100" alt="homem-aranha multi-verso">
+            </div>
+            <div class="carousel-item">
+                <img src="https://twinfinite.net/wp-content/uploads/2021/06/scarlet-nexus-1-3.jpg" class="d-block w-100"
+                    alt="scarlat nexus">
+            </div>
+            <div class="carousel-item">
+                <img src="https://coolwallpapers.me/picsup/2619267-games-4k-hd-pc-wallpaper-free-download.jpg"
+                    class="d-block w-100" alt="ninja">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.pinimg.com/originals/60/c2/17/60c2177448cbf90408ed1df7da78cf00.jpg"
+                    class="d-block w-100" alt="luta galatica">
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.wallpapersafari.com/24/14/srT0ky.jpg" class="d-block w-100" alt="oceano">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpapercave.com/wp/wp4676582.jpg" class="d-block w-100" alt="floresta">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </button>
+    </div>
+    <!--/arrosel-->
+    <br>
+    <br>
+    <!--cards-->
+
+    <div class="jumbotron jumbotron-fluid bg-dark">
+        <div class="container text-light">
+            <h1 class="display-4">Fique por dentro das ultimas notícias do mundo dos games!!!</h1>
+            <p class="lead">Disperte o jogador profissional dentro de você </p>
+            <button type="button" class="btn btn-primary btn-sm ">
+                <li><a class="text-light" href="https://www.tecmundo.com.br/voxel/plataformas/pc/noticias"
+                        target="_blank">Mais</a></li>
+            </button>
+        </div>
+    </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="card-deck">
+            <div class="card">
+                <img src="https://cdn1.epicgames.com/offer/9773aa1aa54f4f7b80e44bef04986cea/6609d2e1-62d9-4094-9cb7-26d9a7f5ba3f_2560x1440-071db7b0d39d5635f684940c1e3c4ec3"
+                    class="card-img-top" alt="rocketleague">
+                <div class="card-body">
+                    <h5 class="card-title">RocketLeague</h5>
+                    <p class="card-text">Após jogar por mais de 4 horas, Arhtur Leandro não aguenta mais indicar qual é
+                        o lado de fazer o gol aos colegas de jogo</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://botaaficha.com.br/wp-content/uploads/2020/09/Hunt.jpg" class="card-img-top"
+                    alt="hutn showdown">
+                <div class="card-body">
+                    <h5 class="card-title">Hunt Showdown</h5>
+                    <p class="card-text">Mesmo sendo um jogo muito explorado pelos players, a fabricante demonstra pouco
+                        enteresse e não da suporte necessário aos seus consumidores.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2019/09/03/1051201.jpg"
+                    class="card-img-top" alt="nier automata">
+                <div class="card-body">
+                    <h5 class="card-title">Nier Automata</h5>
+                    <p class="card-text">Mesmo sendo um jogo excepsional, seus jogadores se questionam em querer saber
+                        se já foram explorados todos os 36 finais do game.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="row  justify-content-center mt-4 mb-4 ">
+                <div class=" col-md-4 ">
+                    <h3 class="text-light">Video motivador</h3>
+                    <p class="text-light">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa earum sequi, doloremque quas nemo
+                        hic
+                        aliquid reiciendis veniam a qui cumque nihil maiores porro! Quia tenetur ex eaque. Odit,
+                        exercitationem?
+                    </p>
+                    <p class="text-light">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate unde neque nam expedita
+                        veniam nulla
+                        mollitia aliquam, magni voluptates qui repudiandae dolorum, soluta, quae sunt ut fuga quo ab
+                        necessitatibus!
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GF4Qu_LRLL8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+            <!--/cards-->
+
+
+        </div>
+
+
+        <div id=contato>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-light row d-flex justify-content-center mt-5">Entre em contato comigo</h1>
+                </div>
+            </div>
+            <div class="row">
+
+
+                <div class="text-light col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Edereço de email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group d-flex justify-content-end">
+                            <button class="btn-outline-success ">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+
+
+                    <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.8762448689552!2d-
+                    34.83150917077066!3d-7.946652671415775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab3d
+                    c673d24465%3A0xe33320db09418a11!2sR.%20%C3%89dson%20R%C3%A9gis%2C%20567%20-%20Janga%2C%20Paulista%20
+                    -%20PE%2C%2053439-160!5e0!3m2!1spt-BR!2sbr!4v1637692015780!5m2!1spt-BR!2sbr" width="850"
+                        height="400" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()"
+                        onmouseout="mapaNormal()"></iframe>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+    <li>
+        <audio id="musica" src=" ./assets/best-music-mix-no-copyright-gaming-music-music-by-roy-knox-and-friends.mp3"
+            autoplay controls loop>
+        </audio>
+    </li>
+    <!--rodapé-->
+
+    <footer>
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-md-12  d-flex justify-content-center ">
+
+                <a href="https://www.facebook.com/lauro.matheus.3/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/facebook.png" alt="logo facebook">
+                </a>
+
+                <a href="https://www.instagram.com/lauro_alves.98/" target="_blank" class="p-3">
+                    <img class="tm-social" src="assets/instagram.png" alt="logo do instagram">
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <p class="text-center text-light"">
+                        Todos os direitos reservador: Lauro Matheus &copy;
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!--/rodapé-->
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- scrip necessario para usar os codigos JS do bootstrap-->
+                    <script src=" https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                    crossorigin="anonymous">
+                    </script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+                        crossorigin="anonymous"></script>
+                    <!-- /scrip necessario para usar os codigos JS do bootstrap-->
+</body>
+
+</html>
