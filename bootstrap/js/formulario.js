@@ -14,6 +14,6 @@ if (assunto.val() ==''){
     return false;
 }
 
-    return false;
+    return true;
    
 });
